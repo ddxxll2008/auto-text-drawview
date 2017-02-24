@@ -11,7 +11,7 @@ draw text which size is auto on a view
 ##自定义界面上绘制Text，可通过拖动控制文字大小及其位置
 
 最近项目上有个需求，需要在一块区域中显示文字，这块区域可以拖动，也可以通过拖拽右下角来改变大小，里面的文字大小要根据区域的大小进行自适应。刚开始觉得这个需求不难，只需要一个TextView就能实现。
-后来发现虽然使用TextView可以很容易实现拖动与缩放的功能，但是文字大小不会改变。在求助github的时候发现了AutoFitTextView控件，参考https://github.com/AndroidDeveloperLB/AutoFitTextView，但是使用的时候，每一次需要根据区域的大小重新创建一个TextView。想想这样对性能消耗太大，不如自己编写一个。
+后来发现虽然使用TextView可以很容易实现拖动与缩放的功能，但是文字大小不会改变。在求助github的时候发现了AutoFitTextView控件，参考https://github.com/AndroidDeveloperLB/AutoFitTextView， 但是使用的时候，每一次需要根据区域的大小重新创建一个TextView。想想这样对性能消耗太大，不如自己编写一个。
 
 ####程序常量与变量
 具体含义见注释
